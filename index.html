@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--The first few tags are the basic mandatory tags needed before creating any webpage-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> <!--Defines the standard used-->
+        <meta name="viewport" content="width=device-width"> <!--enables it to be mobile enabled-->
+        <title>HTML5 CSS3 Responsive</title>
+        <link rel="stylesheet" href="css/style.css"><!--includes the css stylesheet to use-->
+    </head>
+    <body>
+        <header>
+          <div class="container"><!--containers are defined often to make styling and handling of different elements easy-->
+            <div id="brand">
+              <h1><span class="highlight">Web</span> Learning</h1><!--span is meant to act upon a small part of the webpage individually-->
+            </div>
+            <nav><!--li, ul are used to define ordered and unordered lists of items in webpage-->
+              <ul>
+                <li class="current"><a href="index.html">Home</a></li><!--a tags are used to create links for webpages where href is used to refer to the landing page-->
+                <li><a href="about.html">About</a></li>
+                <li><a href="form.html">Form</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <section id="showcase">
+          <div class="container">
+            <h1>Learn basics of Web development</h1>
+            <p>This is a web development programme providing source code for basic web development using different technologies.</p>
+          </div>
+        </section>
+
+        <section id="newsletter">
+          <div class="container">
+            <h1>Subscribe to our emails for more.</h1>
+            <form><!--forms are common in webpages-->
+              <input type="email" placeholder="Enter a valid email..."><!--input tags provides many options and are necessary in creating fields of forms-->
+              <button type="submit" class="button_1">Subscribe</button><!--button tag is used for buttons-->
+            </form>
+          </div>
+        </section>
+
+        <section id="boxes">
+          <div class="container">
+            <div class="box">
+                <img src="img/html5.png"><!--img tags are used for images inclusion-->
+                <h3>HTML5 BODY</h3>
+                <p>HTML5 is used to create the skeleton of the webpage.</p>
+            </div>
+            <div class="box">
+                <img src="img/css3.png">
+                <h3>CSS3 STYLE</h3>
+                <p>CSS3 helps in styling the webpage to make it look presentable.</p>
+            </div>
+            <div class="box">
+                <img src="img/bootstrap4.jpg">
+                <h3>BOOTSTRAP4 STYLE</h3>
+                <p>BOOTSTRAP4 provides a wide variety of options to style the webpage.</p>
+            </div>
+            <div class="box">
+                <img src="img/js.png">
+                <h3>JS HANDLING</h3>
+                <p>JS is used to provide enhanced functionality to the webpage.</p>
+            </div>
+            <div class="box">
+                <img src="img/angularjs.png">
+                <h3>ANGULARJS CONTROLLER</h3>
+                <p>ANGULARJS is a JS framework providing more features for better user experience using JS functionality.</p>
+            </div>
+            <div class="box">
+                <img src="img/jquery.png">
+                <h3>JQUERY BACKEND</h3>
+                <p>JQUERY is a server side language used for fetching and posting data of webpage.</p>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <p>Web Learning, Copyright &copy; 2019</p>
+        </footer>
+
+    </body>
+</html>
